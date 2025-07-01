@@ -38,6 +38,7 @@ def main():
     for item in chars_sorted_list:
         if item["char"].isalpha():
             print(f"The '{item['char']}' character was found {item['num']} times \n -- End report -- " )
+            print(chars_sorted_list)
 
 
 main()
